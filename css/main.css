@@ -2597,3 +2597,52 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+/* --- Portfolio refresh custom styles --- */
+.skill-tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.skill-tags span {
+	display: inline-block;
+	padding: .7rem 1.4rem;
+	border-radius: 999px;
+	background: #f4f4f4;
+	font-family: "poppins-medium", sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.8rem;
+	color: #313131;
+}
+
+.modern-folio .item-wrap {
+	background: #fff;
+	border-radius: 1rem;
+	overflow: hidden;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, .08);
+}
+
+.modern-folio .item-wrap img {
+	display: block;
+	width: 100%;
+	height: 22rem;
+	object-fit: cover;
+}
+
+.project-copy {
+	padding: 2rem;
+}
+
+.project-copy h3 {
+	margin-bottom: .8rem;
+}
+
+.project-copy p {
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+	margin-bottom: 1rem;
+}
+
+.project-copy a {
+	font-family: "poppins-semibold", sans-serif;
+}
